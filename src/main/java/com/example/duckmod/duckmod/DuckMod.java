@@ -87,7 +87,7 @@ public class DuckMod implements ModInitializer {
 		Registry.register(Registries.ITEM, new Identifier("duckmod", "duckegg"), DUCK_EGG);
 		Registry.register(Registries.ITEM, new Identifier("duckmod", "rawduck"), DUCK_MEAT);
 		Registry.register(Registries.ITEM, new Identifier("duckmod", "roasted_duck"), COOKED_DUCK_MEAT);
-		Registry.register(Registries.ITEM, new Identifier("duckmod", "duckstew"), DUCK_STEW);
+		Registry.register(Registries.ITEM, new Identifier("duckmod", "duckeggstew"), DUCK_STEW);
 		Registry.register(Registries.ITEM, new Identifier("duckmod", "duckspawnegg"), DUCK_SPAWN_EGG);
 		Registry.register(Registries.SOUND_EVENT, new Identifier("duckmod", "quack"), QUACK);
 		Registry.register(Registries.SOUND_EVENT, new Identifier("duckmod", "hurt"), DUCKHURT);
