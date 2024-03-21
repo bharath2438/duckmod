@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "eggs=4": { "model": "duckmod:block/ducknest" },
+    "eggs=3": { "model": "duckmod:block/ducknest_3" },
+    "eggs=2": { "model": "duckmod:block/ducknest_2" },
+    "eggs=1": { "model": "duckmod:block/ducknest_1" },
+    "eggs=0": { "model": "duckmod:block/ducknest_0" }
+  }
+}

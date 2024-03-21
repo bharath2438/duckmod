@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "duckmod",
+	"version": "${version}",
+	"name": "DuckMod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/duckmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.duckmod.duckmod.DuckMod"
+		],
+		"client": [
+			"com.example.duckmod.duckmod.DuckModClient"
+		],
+		"fabric-datagen": [
+			"com.example.duckmod.duckmod.DuckModDataGenerator"
+		]
+	},
+	"mixins": [
+		"duckmod.mixins.json",
+		{
+			"config": "duckmod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

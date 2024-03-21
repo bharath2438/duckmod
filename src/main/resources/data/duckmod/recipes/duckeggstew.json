@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " V ",
+    "WXY",
+    " Z "
+  ],
+  "key": {
+    "V": {
+      "item": "duckmod:duckegg"
+    },
+    "W": {
+      "item": "minecraft:carrot"
+    },
+    "X": {
+      "item": "minecraft:beetroot"
+    },
+    "Y": {
+      "item": "minecraft:pumpkin"
+    },
+    "Z": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "duckmod:duckstew",
+    "count": 1
+  }
+}

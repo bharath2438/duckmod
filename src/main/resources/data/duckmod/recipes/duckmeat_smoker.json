@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "group": "food",
+  "ingredient": {
+    "item": "duckmod:rawduck"
+  },
+  "result": "duckmod:roasted_duck",
+  "experience": 0.45,
+  "cookingtime": 180
+}

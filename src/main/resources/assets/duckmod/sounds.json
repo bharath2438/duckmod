@@ -1,0 +1,20 @@
+{
+  "quack": {
+    "subtitle": "subtitles.duckmod.quack",
+    "sounds": [
+      "duckmod:quack"
+    ]
+  },
+  "hurt": {
+    "subtitle": "subtitles.duckmod.hurt",
+    "sounds": [
+      "duckmod:duckhurt"
+    ]
+  },
+  "death": {
+    "subtitle": "subtitles.duckmod.death",
+    "sounds": [
+      "duckmod:duckdeath"
+    ]
+  }
+}
