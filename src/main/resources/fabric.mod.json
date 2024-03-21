@@ -3,13 +3,12 @@
 	"id": "duckmod",
 	"version": "${version}",
 	"name": "DuckMod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Duckmod adds ducks to Minecraft!",
 	"authors": [
-		"Me!"
+		"bharath2438"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/bharath2438/duckmod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/duckmod/icon.png",
@@ -34,7 +33,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",
-		"minecraft": "~1.20.4",
+		"minecraft": ">=1.20.4",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
