@@ -19,5 +19,5 @@ Compatible with fabric mod loader `v0.15.7` and Minecraft `1.20.4`.
 
 ## Usage
 
-Download and install the mod from Modrinth at https://modrinth.com/mod/duckmod
+Download and install the mod from Modrinth at https://modrinth.com/mod/duckmod.
 The mod is also available on CurseForge at https://www.curseforge.com/minecraft/mc-mods/bettermobs-ducks
