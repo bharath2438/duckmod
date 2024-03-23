@@ -13,6 +13,8 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.fabricmc.fabric.impl.datagen.ForcedTagEntry;
+import net.minecraft.advancement.Advancement;
+import net.minecraft.advancement.AdvancementCriterion;
 import net.minecraft.advancement.criterion.VillagerTradeCriterion;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntity;
@@ -74,7 +76,6 @@ public class DuckMod implements ModInitializer {
 	public static final Item COOKED_DUCK_MEAT = new Item(new Item.Settings().food((new FoodComponent.Builder()).hunger(9).saturationModifier(0.8F).meat().build()));
 	public static final Item DUCK_STEW = new Item(new Item.Settings().maxCount(4).food((new FoodComponent.Builder()).hunger(11).saturationModifier(0.5F).build()));
 	public static final Item DUCK_SPAWN_EGG = new SpawnEggItem(DUCK, 0xb4d4e1, 0xec8822, new FabricItemSettings());
-
 	public static final SoundEvent QUACK = SoundEvent.of(new Identifier("duckmod", "quack"));
 	public static final SoundEvent DUCKHURT = SoundEvent.of(new Identifier("duckmod", "hurt"));
 	public static final SoundEvent DUCKDEATH = SoundEvent.of(new Identifier("duckmod", "death"));
@@ -92,6 +93,7 @@ public class DuckMod implements ModInitializer {
 		Registry.register(Registries.SOUND_EVENT, new Identifier("duckmod", "quack"), QUACK);
 		Registry.register(Registries.SOUND_EVENT, new Identifier("duckmod", "hurt"), DUCKHURT);
 		Registry.register(Registries.SOUND_EVENT, new Identifier("duckmod", "death"), DUCKDEATH);
+
 		DuckNestEntity.register();
 
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(content -> {

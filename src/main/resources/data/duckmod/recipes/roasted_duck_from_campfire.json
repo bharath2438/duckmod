@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 560,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "duckmod:rawduck"
+  },
+  "result": "duckmod:roasted_duck"
+}

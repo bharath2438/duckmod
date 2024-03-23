@@ -38,7 +38,6 @@ import java.util.Map;
 public class ExampleMixin {
         @Inject(method="fillRecipes", at=@At("HEAD"), cancellable = true)
         private void fillCustomTrades(CallbackInfo ci) {
-                System.out.println("Hello!!!");
                 VillagerData villagerData = ((VillagerEntity)(Object)this).getVillagerData();
                 Int2ObjectMap int2ObjectMap2;
                 if (((VillagerEntity)(Object)this).getWorld().getEnabledFeatures().contains(FeatureFlags.TRADE_REBALANCE)) {
